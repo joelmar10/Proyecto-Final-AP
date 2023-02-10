@@ -1,0 +1,58 @@
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10%;
+    color: white;
+    background-image: url(../../../assets/aboutback.svg);
+    background-size: cover;
+}
+
+div{
+    text-align: center;
+}
+
+/*Foto de perfil - estilo*/
+@media (min-width: 576px){
+    #profilepicture{
+        /*position: absolute;*/
+        width: 100%;
+        border-radius: 100%;
+        height: 100%;
+        /*box-shadow: 3px 3px 3px black;
+        left: 3%;
+        top: 600px; */
+    }
+    }
+
+@media (max-width: 575px){
+    #profilepicture{
+        /*position: absolute;
+        width: 30%; */
+        border-radius: 100%;
+        /*box-shadow: 3px 3px 3px black;
+        left: 33%;
+        top: 630px;*/
+    }
+    }
+/* Nombre del developer */
+#devname{
+    font-weight: bold;
+    margin-top: 15px;
+    color: #d6d6d6;
+}
+#devjob{
+    color: #aaaaaa;
+}
+
+.abouttxt{
+    margin-top: 40px;
+    width: 100%;
+}
+
+@media (min-width: 1200px){
+.col-lg-6 {
+    width: 60%;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+}

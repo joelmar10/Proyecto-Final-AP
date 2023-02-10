@@ -1,0 +1,29 @@
+.row{
+    margin-right: 0px;
+    margin-left: 0px;
+    padding: 10px;
+    background-color: rgb(90, 93, 95);
+    color: white;
+    background-image: url(../../../assets/projectsback.svg);
+    background-size: cover;
+}
+
+
+.contenedor{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 5px;
+
+}
+
+.p1, .p2{
+    display:inline-block;
+    text-align: justify;
+}
+
+img-p{
+    border-radius: 20px;
+}

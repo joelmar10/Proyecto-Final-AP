@@ -1,0 +1,15 @@
+.row-xs-6 row-sm-6 row-md-6 row-lg-6{
+    margin-top: -10px;
+}
+img{
+    width: 30px;
+}
+button{
+    margin-left: 23px;
+    margin-right: 2px;
+    display: flex;
+    border-radius: 100px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom:18px;
+}
