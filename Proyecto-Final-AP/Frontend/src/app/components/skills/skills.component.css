@@ -1,8 +1,51 @@
 .row{
-    background-color:#2b3033;
-    padding: 20px;
     margin-right: 0px;
     margin-left: 0px;
+    padding: 20px;
     color: white;
+    margin-top: -1px;
+}
+
+div{
+    background-color: #2b3033;
+}
+
+h1{
     text-align: center;
+}
+
+h2, h3{
+    display: inline;
+}
+
+.agregar{
+    background-color: black;
+}
+.borrar{
+    background-color: red;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-bottom: 20px;
+}
+
+.editar{
+    background-color: lightslategray;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-right: 4px;
+    margin-bottom: 20px;
+}
+
+@media (min-width: 1200px){
+    .col-lg-11 {
+        margin-left: 95px;
+    }
+}
+
+.circulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

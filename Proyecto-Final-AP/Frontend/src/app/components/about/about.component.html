@@ -3,16 +3,18 @@
     <div class="pcdiv">
     <div class="col-xs-12 col-sm-4 col-md-4 row-lg-6">
         <img src="../../../assets/perfil.jpg" class="w-70 img-fluid" height="50%" width="70%" id="profilepicture">
-        <p id="devname">Joel Andrés Marchesa</p>
+        <p id="devname">{{persona.nombre}} {{persona.apellido}}</p>
         <p id="devjob">Full Stack Developer Jr.</p>
     </div>
     </div>
 
     <div class="abouttxt">
-    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6" style=";">
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-6">
         <span>
-            <h1 class="titulo">Acerca de mí</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae totam et nam aliquam possimus laboriosam alias sequi, eligendi beatae vitae, commodi aliquid nemo nihil ut nobis fugit voluptatem aspernatur? Minima!</p>
+            <h1 class="titulo">Acerca de mí <button type="button" class="agregar btn btn-dark" routerLink="/editacercade/3" *ngIf="isLogged">
+                Editar
+            </button></h1>
+            <p>{{persona.descripcion}}</p>
         </span>
     </div>
     </div>

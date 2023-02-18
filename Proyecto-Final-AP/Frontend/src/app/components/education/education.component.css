@@ -3,6 +3,7 @@
     margin-left: 0px;
     padding: 20px;
     color: white;
+    margin-top: -1px;
 }
 
 div{
@@ -12,3 +13,28 @@ div{
 h2, h3{
     display: inline;
 }
+
+.agregar{
+    background-color: black;
+}
+.borrar{
+    background-color: red;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.editar{
+    background-color: lightslategray;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-right: 4px;
+}
+
+@media (min-width: 1295px){
+    .col-lg-11 {
+        margin-left: 100px;
+        padding-right: 40px;
+    }
+    }

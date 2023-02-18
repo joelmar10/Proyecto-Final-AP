@@ -13,3 +13,28 @@ div{
 h2, h3{
     display: inline;
 }
+
+.agregar{
+    background-color: black;
+}
+.borrar{
+    background-color: red;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.editar{
+    background-color: lightslategray;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-right: 4px;
+}
+
+@media (min-width: 1200px){
+    .col-lg-11 {
+        margin-left: 100px;
+        padding-right: 80px;
+    }
+    }

@@ -3,7 +3,23 @@
 }
 img{
     width: 30px;
+    z-index: 50;
 }
+
+a{
+    color: #191919;
+}
+
+.ing{
+    margin-left: 23px;
+    margin-right: 2px;
+    display: flex;
+    border-radius: 100px;
+    font-weight: bold;
+    margin-top: 5px;
+    margin-bottom:18px;
+}
+
 button{
     margin-left: 23px;
     margin-right: 2px;

@@ -1,17 +1,13 @@
 <div class="row">
-    <h1 class="titulo" style="text-align:center;">Experiencia laboral</h1>
-    <div class="col-lg-11">
-        <ul>
-            <li><h2 class="subtitulo">Trabajo 1</h2> - <h3>(años)</h3></li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis blanditiis accusamus libero accusantium in. Cumque reprehenderit explicabo incidunt quia quo exercitationem autem cum modi voluptates nisi repellat, fuga voluptatum numquam!</p>
-        </ul>
-        <ul>
-            <li><h2 class="subtitulo">Trabajo 2</h2> - <h3>(años)</h3></li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis blanditiis accusamus libero accusantium in. Cumque reprehenderit explicabo incidunt quia quo exercitationem autem cum modi voluptates nisi repellat, fuga voluptatum numquam!</p>
-        </ul>
-        <ul>
-            <li><h2 class="subtitulo">Trabajo 3</h2> - <h3>(años)</h3></li>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis blanditiis accusamus libero accusantium in. Cumque reprehenderit explicabo incidunt quia quo exercitationem autem cum modi voluptates nisi repellat, fuga voluptatum numquam!</p>
-        </ul>
+    <h1 class="titulo" style="text-align:center;">Experiencia laboral  <button type="button" class="agregar btn btn-dark" routerLink="/nuevaexp" *ngIf="isLogged">
+        Agregar
+    </button></h1>
+    <div class="col-lg-11" *ngFor="let Experiencia of expe">
+        
+            <h2 class="subtitulo">{{Experiencia.nombreE}}</h2><h3 class="lapso">{{Experiencia.lapsoE}}</h3>  
+            <p>{{Experiencia.descripcionE}} <button type="button" *ngIf="isLogged" class="editar btn btn-dark"  routerLink="/editexp/{{Experiencia.id}}">
+                <i class="bi bi-pencil-fill"></i>Editar</button>  <button type="button" *ngIf="isLogged" class="borrar btn btn-dark" (click)="delete(Experiencia.id)">
+                <i class="bi bi-trash-fill"></i>Borrar</button></p>
+        
     </div>
 </div>
