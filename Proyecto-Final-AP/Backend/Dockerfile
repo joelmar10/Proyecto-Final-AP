@@ -1,4 +1,4 @@
-from amazoncorretto:11-alpine-jdk
-maintainer joelm
-copy target/yoprogramo-0.0.1-SNAPSHOT.jar joelm-test.jar
+FROM amazoncorretto:11-alpine-jdk
+MAINTAINER  joelm
+COPY target/yoprogramo-0.0.1-SNAPSHOT.jar joelm-test.jar
 ENTRYPOINT ["java","-jar","/joelm-test.jar"]
