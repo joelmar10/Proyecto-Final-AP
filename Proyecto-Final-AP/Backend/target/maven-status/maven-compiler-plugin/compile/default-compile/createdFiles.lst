@@ -19,6 +19,7 @@ com\argentinaprograma\yoprogramo\Security\Service\RolService.class
 com\argentinaprograma\yoprogramo\Security\Service\UserDetailsImpl.class
 com\argentinaprograma\yoprogramo\Repository\IPersonaRepository.class
 com\argentinaprograma\yoprogramo\Repository\RExperiencia.class
+.netbeans_automatic_build
 com\argentinaprograma\yoprogramo\Controller\CHys.class
 com\argentinaprograma\yoprogramo\Security\Dto\JwtDto.class
 com\argentinaprograma\yoprogramo\Entity\Experiencia.class
