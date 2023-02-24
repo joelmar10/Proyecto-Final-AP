@@ -13,11 +13,10 @@ export class NeweducacionComponent implements OnInit {
   nombreE: string;
   descripcionE: string;
   lapsoE: string;
-  private tokenService: TokenService;
 
   isLogged = false;
 
-  constructor(private educacionS: EducacionService, private router: Router) { }
+  constructor(private educacionS: EducacionService, private router: Router, private tokenService: TokenService) { }
 
   ngOnInit(): void {
     if(this.tokenService.getToken()){
