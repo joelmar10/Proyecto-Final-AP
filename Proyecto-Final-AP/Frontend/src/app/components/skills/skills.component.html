@@ -1,18 +1,23 @@
 <div class="row">
-
+    
     <h1 class="titulo">Hard & Soft skills <button type="button" routerLink="/newskill" class="agregar btn btn-dark" *ngIf="isLogged">Agregar</button></h1>
+    <div class="alert" *ngIf="isLogged">
+        <span class="closebtn" onclick="this.parentElement.style.display='none';">&times;</span> 
+        <strong class="info"></strong> Recuerda agregar una imagen que represente mejor a tu habilidad desde la sección Editar.
+      </div>
 
-    <div class="centrador">
-    <div class="text-center col-sm-4 col-md-4 col-lg-4 circulo" *ngFor="let skill of skill">
+    <div class="centrador" *ngFor="let skill of skill">
+    <div class="text-center col-sm-4 col-md-4 col-lg-4 circulo" >
         <circle-progress 
         [percent]="(skill.porcentaje)" 
-        [radius]="90" [imageSrc]="''" 
+        [radius]="90" 
+        [imageSrc]='(skill.img)' 
         [title]="(skill.nombre)"
         [titleColor]="'#ffffff'"
         [showTitle]="true" 
-        [showImage]="false" 
-        [imageHeight]="70" 
-        [imageWidth]="70" 
+        [showImage]="true" 
+        [imageHeight]="90" 
+        [imageWidth]="90" 
         [showUnits]="false"
         [showSubtitle]="false" 
         [outerStrokeWidth]="16" 
@@ -28,5 +33,6 @@
         </div>
     </div>
     </div>
-        
+    
     </div>
+    

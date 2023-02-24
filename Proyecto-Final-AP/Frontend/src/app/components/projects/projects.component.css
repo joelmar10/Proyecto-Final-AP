@@ -27,3 +27,52 @@
 img-p{
     border-radius: 20px;
 }
+
+.agregar{
+    background-color: black;
+}
+.borrar{
+    background-color: red;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+}
+
+.editar{
+    background-color: lightslategray;
+    color: white;
+    padding-bottom: 1px;
+    padding-top: 1px;
+    margin-right: 4px;
+}
+
+img:before {
+  content: " ";
+  display: block;
+
+  position: absolute;
+
+  left: 0;
+  height: calc(100% + 60px);
+  width: 100%;
+  background-color: rgb(230, 230, 230);
+  border: 2px dotted rgb(200, 200, 200);
+  border-radius: 5px;
+}
+
+img:after {
+  content: attr(alt);
+  display: block;
+  font-size: 16px;
+  font-style: normal;
+  font-family: poppins;
+  color: rgb(100, 100, 100);
+  padding-left: 15px;
+    padding-right: 15px;
+
+  position: absolute;
+  top: 20px;
+  left: 0;
+  width: 100%;
+  text-align: center;
+}

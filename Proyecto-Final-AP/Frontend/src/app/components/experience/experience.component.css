@@ -38,3 +38,12 @@ h2, h3{
         padding-right: 80px;
     }
     }
+
+    body{
+        font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        line-height: 1.42857143;
+        color: #333333;
+        background-color: #fff;
+        background-image: url(https://firebasestorage.googleapis.com/v0/b/portafolio-yp.appspot.com/o/Assets%2Fbanner3.svg?alt=media&token=bbc25bd0-e058-4711-89e4-368e58697a64);
+    }

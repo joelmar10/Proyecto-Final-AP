@@ -1,0 +1,50 @@
+body{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333333;
+    background-color: rgb(0, 0, 0);
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/portafolio-yp.appspot.com/o/Assets%2Fbanner3.svg?alt=media&token=bbc25bd0-e058-4711-89e4-368e58697a64);
+}
+
+.row{
+    margin-top:30px;
+}
+
+.btn-primary{
+    color: #fff;
+    background-color: #393939;
+    border-color: #000000;
+    border-radius: 100px;
+    
+}
+
+input[type=file]::file-selector-button {
+    margin-right: 20px;
+    border: none;
+    background: #7d7d7d;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #fff;
+    cursor: pointer;
+
+  }
+  
+  input[type=file]::file-selector-button:hover {
+    background: #7d7d7d;
+    
+  }
+
+
+  input[type=file]{
+    height: 50px;
+    margin-bottom:10px;
+  }
+
+  img{
+    margin-bottom:10px;
+  }
+
+  label{
+    font-family: poppins;
+  }

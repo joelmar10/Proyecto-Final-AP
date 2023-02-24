@@ -2,6 +2,7 @@ import { Component, OnInit } from "@angular/core";
 import { ActivatedRoute, Router } from "@angular/router";
 import { Experiencia } from "src/app/model/experiencia";
 import { SExperienciaService } from "src/app/service/s-experiencia.service";
+import { TokenService } from "src/app/service/token.service";
 
 
 @Component({
@@ -11,12 +12,20 @@ import { SExperienciaService } from "src/app/service/s-experiencia.service";
 })
 export class EditExperienciaComponent implements OnInit {
   expLab: Experiencia = null;
+  isLogged = false;
 
   constructor(private sExperiencia: SExperienciaService, private activatedRouter: ActivatedRoute,
-    private router: Router) { }
+    private router: Router,
+    private tokenService: TokenService) { }
 
   ngOnInit(): void {
     const id = this.activatedRouter.snapshot.params['id'];
+    if(this.tokenService.getToken()){
+      this.isLogged = true;
+    } else {
+      this.isLogged = false;
+      this.router.navigate(['']);
+    }
     this.sExperiencia.detail(id).subscribe(
       data =>{
         this.expLab = data;

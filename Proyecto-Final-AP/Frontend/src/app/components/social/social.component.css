@@ -1,6 +1,11 @@
 .row-xs-6 row-sm-6 row-md-6 row-lg-6{
     margin-top: -10px;
 }
+
+app-social[_ngcontent-qqd-c56]{
+    margin-right: 13px;
+}
+
 img{
     width: 30px;
     z-index: 50;

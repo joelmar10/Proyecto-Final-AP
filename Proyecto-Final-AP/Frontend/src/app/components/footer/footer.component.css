@@ -2,17 +2,37 @@
     background-color: #1a1c1f;
     margin-right: 0px;
     margin-left: 0px;
+    margin-top: -3px;
 }
 footer{
     color: white;
     font-size: 14px;
     display: flex;
+    margin-top:90px;
     align-items: center;
     text-align: center;
     flex-direction: column;
     justify-content: flex-end;
-    height: 200px;
+    height: 150px;
+    background-color: black;
     width: 100%;
-    background-image: url(../../../assets/footer.svg);
+    /* background-image: url(../../../assets/footer.svg); */
     background-size: cover;
+}
+
+.foot{
+    font-size: 14px;
+}
+
+.texto{
+    margin-bottom:20px
+}
+
+img{
+    width: 30px;
+    z-index: 50;
+}
+
+.social{
+    margin-bottom: 15px;
 }
