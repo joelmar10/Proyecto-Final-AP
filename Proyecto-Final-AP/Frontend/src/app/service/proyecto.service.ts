@@ -8,7 +8,7 @@ import { Proyecto } from '../model/proyecto.model';
 })
 export class ProyectoService {
 
-  URL = 'https://ypap.up.railway.app/proyecto/';
+  URL = 'http://ypap.up.railway.app/proyecto/';
 
   constructor(private httpClient : HttpClient) { }
 
