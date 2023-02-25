@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyecto")
-@CrossOrigin(origins = "/")
+@CrossOrigin(origins = "/*")
 
 
 
@@ -33,10 +33,10 @@ public class CProyecto {
     @Autowired
     SProyecto sProyecto;
     
-    @GetMapping("/lista")
+    @GetMapping("/listar")
     public ResponseEntity<List<Proyecto>> list(){
         List<Proyecto> list = sProyecto.list();
-        return new ResponseEntity(list, HttpStatus.OK);
+        return new ResponseEntity(list, HttpStatus.CONTINUE);
     }
     
     @GetMapping("/detail/{id}")
