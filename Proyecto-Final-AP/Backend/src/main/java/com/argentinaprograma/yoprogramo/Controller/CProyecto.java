@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyecto")
- @CrossOrigin(origins= {"*"}, maxAge = 4800, allowCredentials = "false" )
+ @CrossOrigin(origins= {"*"})
 public class CProyecto {
     @Autowired
     SProyecto sProyecto;
