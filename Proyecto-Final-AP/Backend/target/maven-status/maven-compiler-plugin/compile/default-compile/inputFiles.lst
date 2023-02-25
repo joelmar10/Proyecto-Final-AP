@@ -1,5 +1,8 @@
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Repository\IPersonaRepository.java
+D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Service\SProyecto.java
+D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Entity\Proyecto.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Repository\Rhys.java
+D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Repository\RProyecto.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Dto\dtoPersona.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\Repository\iRolRepository.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\Service\RolService.java
@@ -19,6 +22,7 @@ D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\s
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Controller\CHys.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Entity\Experiencia.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Repository\REducacion.java
+D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Controller\CProyecto.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Controller\CExperiencia.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Repository\RExperiencia.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Service\Shys.java
@@ -31,6 +35,7 @@ D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\s
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\Controller\AuthController.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\Dto\NuevoUsuario.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\jwt\JwtProvider.java
+D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Dto\dtoProyecto.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Controller\PersonaController.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Entity\Persona.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\Repository\iUsuarioRepository.java
