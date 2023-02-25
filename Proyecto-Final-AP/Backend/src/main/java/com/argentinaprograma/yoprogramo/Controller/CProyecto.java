@@ -25,10 +25,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("/proyecto")
-@CrossOrigin(origins = "")
-
-
-
+ @CrossOrigin(origins= {"*"}, maxAge = 4800, allowCredentials = "false" )
 public class CProyecto {
     @Autowired
     SProyecto sProyecto;
@@ -36,7 +33,7 @@ public class CProyecto {
     @GetMapping("/lista")
     public ResponseEntity<List<Proyecto>> list(){
         List<Proyecto> list = sProyecto.list();
-        return new ResponseEntity(list, HttpStatus.CONTINUE);
+        return new ResponseEntity(list, HttpStatus.OK);
     }
     
     @GetMapping("/detail/{id}")
