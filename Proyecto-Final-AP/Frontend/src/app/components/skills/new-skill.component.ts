@@ -12,7 +12,7 @@ import { TokenService } from 'src/app/service/token.service';
 export class NewSkillComponent implements OnInit {
   nombre: string;
   porcentaje: number;
-  img: string = "https://firebasestorage.googleapis.com/v0/b/portafolio-yp.appspot.com/o/Assets%2Fgaler%C3%ADa.png?alt=media&token=3db78e12-4f3d-46fc-ae2f-4d4decae3a73";
+  img: string = "https://bit.ly/3SrClbA";
   skill: Skill;
   isLogged = false;
 
