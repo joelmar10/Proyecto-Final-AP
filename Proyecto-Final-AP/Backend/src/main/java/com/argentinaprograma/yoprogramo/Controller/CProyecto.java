@@ -6,6 +6,7 @@ package com.argentinaprograma.yoprogramo.Controller;
 
 import com.argentinaprograma.yoprogramo.Dto.dtoProyecto;
 import com.argentinaprograma.yoprogramo.Entity.Proyecto;
+import com.argentinaprograma.yoprogramo.Entity.hys;
 import com.argentinaprograma.yoprogramo.Security.Controller.Mensaje;
 import com.argentinaprograma.yoprogramo.Service.SProyecto;
 import java.util.List;
@@ -30,8 +31,8 @@ public class CProyecto {
     @Autowired
     SProyecto sProyecto;
     
-    @GetMapping("/lista")
-    public ResponseEntity<List<Proyecto>> list(){
+        @GetMapping("/lista")
+    public ResponseEntity<List<hys>> list() {
         List<Proyecto> list = sProyecto.list();
         return new ResponseEntity(list, HttpStatus.OK);
     }
