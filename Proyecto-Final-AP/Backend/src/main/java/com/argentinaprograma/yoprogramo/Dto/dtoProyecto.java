@@ -11,6 +11,7 @@ public class dtoProyecto {
     private String nombreE;
     @NotBlank
     private String descripcionE;
+    @NotBlank
     private String img;
     
     //Constructores
