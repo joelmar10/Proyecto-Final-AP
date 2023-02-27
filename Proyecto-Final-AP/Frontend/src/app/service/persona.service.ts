@@ -7,7 +7,7 @@ import { persona } from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-  URL = 'https://ypap.up.railway.app/personas/';
+  URL = 'https://ap.up.railway.ap/personas/';
   constructor(private httpClient: HttpClient) { }
 
   public lista(): Observable<persona[]>{

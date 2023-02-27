@@ -8,7 +8,7 @@ import { Educacion } from '../model/educacion';
 })
 export class EducacionService {
 
-  URL = 'https://ypap.up.railway.app/educacion/';
+  URL = 'https://ap.up.railway.ap/educacion/';
 
   constructor(private httpClient : HttpClient) { }
 

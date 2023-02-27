@@ -10,7 +10,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
 })
 export class AuthService {
 
-  authURL = 'https://ypap.up.railway.app/auth/';
+  authURL = 'https://ap.up.railway.ap/auth/';
 
 
   constructor(private httpClient: HttpClient) { }
