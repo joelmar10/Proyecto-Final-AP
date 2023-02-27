@@ -1,5 +1,6 @@
 com\argentinaprograma\yoprogramo\Security\Repository\iRolRepository.class
 com\argentinaprograma\yoprogramo\Dto\dtoHys.class
+com\argentinaprograma\yoprogramo\WebConfig.class
 com\argentinaprograma\yoprogramo\Security\Repository\iUsuarioRepository.class
 com\argentinaprograma\yoprogramo\Security\Service\UsuarioService.class
 com\argentinaprograma\yoprogramo\Controller\PersonaController.class
@@ -24,11 +25,16 @@ com\argentinaprograma\yoprogramo\Security\Dto\JwtDto.class
 com\argentinaprograma\yoprogramo\Entity\Experiencia.class
 com\argentinaprograma\yoprogramo\Entity\Educacion.class
 com\argentinaprograma\yoprogramo\Service\SExperiencia.class
+com\argentinaprograma\yoprogramo\Controller\CProyecto.class
 com\argentinaprograma\yoprogramo\Security\Entity\UsuarioPrincipal.class
+com\argentinaprograma\yoprogramo\Entity\Proyecto.class
+com\argentinaprograma\yoprogramo\Service\SProyecto.class
+com\argentinaprograma\yoprogramo\Repository\RProyecto.class
 com\argentinaprograma\yoprogramo\Repository\REducacion.class
 com\argentinaprograma\yoprogramo\Dto\dtoEducacion.class
 com\argentinaprograma\yoprogramo\Entity\Persona.class
 com\argentinaprograma\yoprogramo\Entity\hys.class
+com\argentinaprograma\yoprogramo\Dto\dtoProyecto.class
 com\argentinaprograma\yoprogramo\Security\Entity\Rol.class
 com\argentinaprograma\yoprogramo\Dto\dtoPersona.class
 com\argentinaprograma\yoprogramo\Security\Enums\RolNombre.class

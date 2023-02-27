@@ -34,6 +34,7 @@ D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\s
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\YoprogramoApplication.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\Controller\AuthController.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\Dto\NuevoUsuario.java
+D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\WebConfig.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Security\jwt\JwtProvider.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Dto\dtoProyecto.java
 D:\ArgentinaPrograma\ProyectoFinal\Proyecto-Final-AP\Proyecto-Final-AP\Backend\src\main\java\com\argentinaprograma\yoprogramo\Controller\PersonaController.java
