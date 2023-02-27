@@ -7,7 +7,7 @@ import { Experiencia } from '../model/experiencia';
   providedIn: 'root'
 })
 export class SExperienciaService {
-  expURL = 'https://ap.up.railway.ap/explab/';
+  expURL = 'http://localhost:8080/explab/';
 
  
 

@@ -8,7 +8,7 @@ import { Proyecto } from '../model/proyecto.model';
 })
 export class ProyectoService {
 
-  URL = 'https://ap.up.railway.ap/proyecto/';
+  URL = 'http://localhost:8080/proyecto/';
 
   constructor(private httpClient : HttpClient) { }
 
